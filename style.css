@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.parent {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.box {
+    background-color: pink;
+    animation: hamidulla 19s infinite;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+
+
+
+@keyframes hamidulla {
+0%{
+    left: 0;
+    top: 0;
+
+}
+    25%{
+
+    left: 950px;
+    background-color: grey;
+    top: 0;
+
+}
+50%{
+   top: 400px;
+   left: 950px;
+   background-color: aqua;
+
+}
+75%{
+left: 0;
+top: 400px;
+border-color: blue;
+
+}
+100%{
+    left: 0;
+    top: 0;
+    background-color: blueviolet;
+  
+}
+}
